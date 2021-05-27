@@ -1,8 +1,13 @@
 module.exports = {
   extends: [
-    require.resolve('./index'),
+    './index',
     'plugin:vue/essential',
   ],
+  parserOptions: {
+    babelOptions: {
+      presets: ['@vue/babel-preset-app'],
+    },
+  },
   rules: {
     'no-param-reassign': 'off', // Vue depends
     'no-bitwise': 'off', // Vue depends

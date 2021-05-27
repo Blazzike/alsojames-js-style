@@ -67,6 +67,7 @@
     "@babel/eslint-parser": "^7.14.3",
     "confusing-browser-globals": "^1.0.10",
     "eslint-plugin-import": "^2.23.3",
-    "eslint-plugin-vue": "^7.9.0"
+    "eslint-plugin-vue": "^7.9.0",
+    "@vue/babel-preset-app": "^4.5.13"
   }
 }
