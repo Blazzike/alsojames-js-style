@@ -10,9 +10,5 @@ module.exports = {
     './rules/strict',
   ].map(require.resolve),
   parser: '@babel/eslint-parser',
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
   rules: {},
 };
