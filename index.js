@@ -13,5 +13,9 @@ module.exports = {
   parserOptions: {
     requireConfigFile: false,
   },
+  env: {
+    browser: true,
+    node: true,
+  },
   rules: {},
 };
