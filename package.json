@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alsojames",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Yet another JavaScript ESLint style",
   "main": "index.js",
   "scripts": {
@@ -65,9 +65,9 @@
     "node": ">= 6"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.23.3",
     "@babel/eslint-parser": "^7.14.3",
     "confusing-browser-globals": "^1.0.10",
+    "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-vue": "^7.9.0"
   }
 }
