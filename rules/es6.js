@@ -1,14 +1,14 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
     ecmaFeatures: {
       generators: false,
-      objectLiteralDuplicateProperties: false
-    }
+      objectLiteralDuplicateProperties: false,
+    },
   },
 
   rules: {
@@ -74,7 +74,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-restricted-imports
     'no-restricted-imports': ['off', {
       paths: [],
-      patterns: []
+      patterns: [],
     }],
 
     // disallow to use this/super before super() calling in constructors.
@@ -104,7 +104,7 @@ module.exports = {
     // https://eslint.org/docs/rules/object-shorthand
     'object-shorthand': ['error', 'always', {
       ignoreConstructors: false,
-      avoidQuotes: true,
+      avoidQuotes: false,
     }],
 
     // suggest using arrow functions as callbacks
@@ -181,6 +181,6 @@ module.exports = {
 
     // enforce spacing around the * in yield* expressions
     // https://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': ['error', 'after']
-  }
+    'yield-star-spacing': ['error', 'after'],
+  },
 };
