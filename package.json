@@ -58,8 +58,7 @@
     "tape": "^5.2.2"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0"
   },
   "engines": {
     "node": ">= 6"

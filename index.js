@@ -10,5 +10,8 @@ module.exports = {
     './rules/strict',
   ].map(require.resolve),
   parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+  },
   rules: {},
 };
