@@ -1,5 +1,5 @@
 {
-  "name": "alsojames-js-style",
+  "name": "eslint-config-alsojames",
   "version": "1.0.1",
   "description": "Yet another JavaScript ESLint style",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Blazzike/alsojames-js-style"
+    "url": "https://github.com/Blazzike/eslint-config-alsojames"
   },
   "keywords": [
     "eslint",
@@ -45,9 +45,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/Blazzike/eslint-config-alsojames/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/Blazzike/eslint-config-alsojames/javascript",
   "devDependencies": {
     "@babel/preset-env": "^7.14.2",
     "babel-tape-runner": "^3.0.0",
