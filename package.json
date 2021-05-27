@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alsojames",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yet another JavaScript ESLint style",
   "main": "index.js",
   "scripts": {
