@@ -1,5 +1,11 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    babelOptions: {
+      presets: ['@vue/babel-preset-app'],
+    },
+  },
   extends: [
     './vue',
   ],

@@ -1,14 +1,15 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
-  extends: [
-    './index',
-    'plugin:vue/essential',
-  ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
+    parser: '@babel/eslint-parser',
     babelOptions: {
       presets: ['@vue/babel-preset-app'],
     },
   },
+  extends: [
+    './index',
+    'plugin:vue/essential',
+  ],
   rules: {
     'no-param-reassign': 'off', // Vue depends
     'no-bitwise': 'off', // Vue depends
