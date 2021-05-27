@@ -13,13 +13,13 @@ The default export contains all of our ESLint rules, including ECMAScript 6+. It
 1. Install the correct versions of each package, which are listed by the command:
 
   ```sh
-  npm info "eslint-config-airbnb-base@latest" peerDependencies
+  npm info "alsojames-js-style@latest" peerDependencies
   ```
 
   If using **npm 5+**, use this shortcut
 
   ```sh
-  npx install-peerdeps --dev eslint-config-airbnb-base
+  npx install-peerdeps --dev alsojames-js-style
   ```
 
   If using **yarn**, you can also use the shortcut described above if you have npm 5+ installed on your machine, as the command will detect that you are using yarn and will act accordingly.
@@ -30,7 +30,7 @@ The default export contains all of our ESLint rules, including ECMAScript 6+. It
 
   ```sh
   (
-    export PKG=eslint-config-airbnb-base;
+    export PKG=alsojames-js-style;
     npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
   )
   ```
